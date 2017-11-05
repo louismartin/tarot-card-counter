@@ -80,7 +80,7 @@ class App(QDialog):
     def __init__(self, images_paths):
         super().__init__()
         self.images_paths = images_paths
-        self.title = 'Tarot counter'
+        self.title = 'Tarot card counter'
         self.left = 10
         self.top = 10
         self.width = 320
